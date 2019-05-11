@@ -1,12 +1,15 @@
 {
   "name": "log8",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/log.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch --preserveWatchOutput"
+    "watch": "tsc --watch --preserveWatchOutput",
+    "preversion": "yarn build"
   },
   "author": "oott123",
   "license": "UNLICENSED",

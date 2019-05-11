@@ -6,6 +6,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oott123/log9.git"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch --preserveWatchOutput",
